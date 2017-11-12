@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="using_markers" type="points_and_lines" name="points_and_lines" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find using_markers)/rviz/using_markers.rviz"/>
+</launch>
