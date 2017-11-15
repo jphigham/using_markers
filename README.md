@@ -12,9 +12,9 @@ using_markers package from [rviz/Tutorials](http://wiki.ros.org/rviz/Tutorials)
 
 ## How to run:
 
-* Launching rviz and node separately:
+### Launching rviz and node separately:
 
- * C++
+* C++
  
 ```
 roslaunch using_markers basic_shapes.launch
@@ -25,7 +25,7 @@ roslaunch using_markers points_and_lines.launch
 rosrun using_markers points_and_lines
 ```
 
- * Python
+* Python
 
 ```
 roslaunch using_markers basic_shapes.launch
@@ -34,4 +34,24 @@ rosrun using_markers basic_shapes.py
 ```
 roslaunch using_markers points_and_lines.launch
 rosrun using_markers points_and_lines.py
+```
+
+### Launch rviz and node simultaneously
+
+* C++
+
+```
+roslaunch using_markers basic_shapes_cpp.launch
+```
+```
+roslaunch using_markers points_and_lines_cpp.launch
+```
+
+* Python
+
+```
+roslaunch using_markers basic_shapes_py.launch
+```
+```
+roslaunch using_markers points_and_lines_py.launch
 ```
