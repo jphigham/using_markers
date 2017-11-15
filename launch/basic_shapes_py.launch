@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="using_markers" type="basic_shapes.py" name="basic_shapes" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find using_markers)/rviz/basic_shapes.rviz"/>
+</launch>
